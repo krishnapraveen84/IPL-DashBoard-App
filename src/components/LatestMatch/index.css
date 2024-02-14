@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.latest-match-container {
+  padding: 10px;
+  background-color: #1e293b;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: Bree Serif;
+}
+
+.latest-match-card {
+  color: white;
+}
+.team-details-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-heading {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.date {
+  font-size: 18px;
+}
+
+.opp-team-img {
+  width: 20%;
+}
+.para-1 {
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .latest-match-container {
+    width: 80%;
+  }
+  .h-line {
+    display: none;
+  }
+  .team-details-card {
+    justify-content: space-evenly;
+  }
+  .latest-match-card {
+    display: flex;
+    justify-content: space-around;
+  }
+  .opp-team-img {
+    width: 25%;
+  }
+  .bottom-container {
+    text-align: end;
+  }
+  .team-details-card {
+    text-align: left;
+  }
+}
